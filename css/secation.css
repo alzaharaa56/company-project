@@ -1,0 +1,52 @@
+
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  padding-bottom: 150px;
+  align-items: center;
+}
+
+.grid-section .head-text {
+  grid-column: 1 / 3;
+  text-align:center;
+  color: #d2a02c;
+}
+
+.grid-section .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.grid-section .amige {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.grid-section .amige img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transform: scaleX(-1);
+}
+.space{
+  padding: 30px;
+  background-color: #d2a02c;
+}
+.styleimage img{
+  width: 400px;
+  height: auto;
+ 
+}
+#styleimages img{
+  width: 300px;
+  height: auto;
+  transform: scaleX(1);
+ 
+}

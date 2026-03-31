@@ -1,0 +1,21 @@
+/* import  */
+@import url("./header.css");
+@import url("./main.css");
+@import url("./secation.css");
+@import url("./footer.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body color */
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: black;
+  padding: 15px 20px;
+  color: aliceblue;
+}
+html {
+  scroll-behavior: smooth;
+}
